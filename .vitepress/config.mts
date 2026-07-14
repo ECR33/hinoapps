@@ -2,8 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'ja-JP',
   title: "品川区立日野学園PTA アプリケーション",
   description: "PTA向けアプリケーションの一覧と説明",
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
