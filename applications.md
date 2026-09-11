@@ -36,6 +36,9 @@ Slackのインターフェースを使用して会員向けにメールを送信
 メールを送信するユーザは宛先を目的別グループなどで認識し、個別のメールアドレスは認識することがないため取り扱いの負荷が軽減されます。
 
 - https://github.com/ECR33/slack2mail
+- https://youtu.be/sPp3jJAD87g
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sPp3jJAD87g?si=tJJqFXCIiSEMUzIr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## さいごに
 
