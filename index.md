@@ -15,11 +15,16 @@ hero:
       link: /terms-of-service
 
 features:
-  - title: slack2mail
+  - icon:
+      src: /slack2mail_icon.png
+    title: <a href="/slack2mail/">slack2mail</a>
     details: Slackのインターフェースを使用して会員向けにメールを送信するSlackアプリ。
-  - title: hinospo
+  - icon:
+      src: /hinospo_icon.jpg
+    title: hinospo
     details: 運動会のプログラムを表示するWebアプリ。進捗状況がリアルタイム更新されて通知される。
-  - title: hinocal
+  - icon: 🗓️
+    title: hinocal
     details: 日野学園年間行事カレンダーを安全に更新するアプリ。コマンドラインで操作する。
 ---
 

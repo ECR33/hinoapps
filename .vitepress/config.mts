@@ -19,6 +19,13 @@ export default defineConfig({
         text: 'Applications',
         items: [
           { text: 'アプリケーション一覧', link: '/applications' },
+          {
+            text: 'slack2mail', items: [
+              { text: '概要', link: '/slack2mail/' },
+              { text: '操作手順', link: '/slack2mail/operation' },
+              { text: '選択肢', link: '/slack2mail/options' },
+            ]
+          },
         ]
       },
       {
