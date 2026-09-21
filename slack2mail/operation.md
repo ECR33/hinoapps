@@ -78,13 +78,3 @@ Slackのスラッシュコマンドでアプリを起動します。
 ## 送信したメールの格納場所
 
 送信されたメールは送信者の「送信済み」メールボックスに保管されます。
-
-<style>
-.slack-screen {
-  border: 1px solid #808080;
-  border-radius: 5px;
-  box-shadow: 5px 5px 10px #e0e0e0;
-  padding: 1em;
-  width: 60%;
-}
-</style>

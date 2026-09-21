@@ -17,7 +17,8 @@ hero:
 features:
   - icon:
       src: /slack2mail_icon.png
-    title: <a href="/slack2mail/">slack2mail</a>
+    title: slack2mail
+    link: /slack2mail/
     details: Slackのインターフェースを使用して会員向けにメールを送信するSlackアプリ。
   - icon:
       src: /hinospo_icon.jpg

@@ -40,13 +40,3 @@
 「表示」ボタンを押すと文字を置き換えた1例が表示されます。
 
 ![プレビュー表示](/img/Screenshot_20260921_151623.png){class="slack-screen"}
-
-<style>
-.slack-screen {
-  border: 1px solid #808080;
-  border-radius: 5px;
-  box-shadow: 5px 5px 10px #e0e0e0;
-  padding: 1em;
-  width: 60%;
-}
-</style>

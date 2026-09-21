@@ -5,7 +5,10 @@ export default defineConfig({
   lang: 'ja-JP',
   title: "品川区立日野学園PTA アプリケーション",
   description: "PTA向けアプリケーションの一覧と説明",
-  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['link', { rel: 'stylesheet', href: '/style.css' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

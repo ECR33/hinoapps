@@ -1,0 +1,13 @@
+.slack-screen {
+  border: 1px solid #808080;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #e0e0e0;
+  padding: 1em;
+  width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+  .slack-screen {
+    width: 90%;
+  }
+}
