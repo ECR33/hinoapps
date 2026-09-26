@@ -8,7 +8,7 @@
 送信先はイベント単位で管理されています。  
 イベントを選択すると宛先の選択肢(宛先グループ)が表示されます
 
-![イベント選択](/img/Screenshot_20260921_151223.png){class="slack-screen"}
+![イベント選択](/img/pic20.svg){class="slack-screen"}
 
 ※ この例では「ブロック」と表示されていますが宛先グループを示す名称はイベントごとに異なります
 
@@ -33,10 +33,10 @@
 
 1. 埋込み文字の記入
 
-![埋込み文字](/img/Screenshot_20260921_151541.png){class="slack-screen"}
+![埋込み文字](/img/pic22.svg){class="slack-screen"}
 
 2. プレビュー表示
 
-「表示」ボタンを押すと文字を置き換えた1例が表示されます。
+「表示」ボタンを押すと文字を置き換えた例が表示されます。
 
-![プレビュー表示](/img/Screenshot_20260921_151623.png){class="slack-screen"}
+![プレビュー表示](/img/pic23.svg){class="slack-screen"}
