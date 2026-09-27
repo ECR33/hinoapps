@@ -1,3 +1,7 @@
+---
+title: slack2mail
+description: Slackのインターフェースを使用して会員向けにメールを送信するSlackアプリ
+---
 # slack2mail
 
 ## 概要

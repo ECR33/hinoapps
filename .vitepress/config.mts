@@ -8,14 +8,18 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['link', { rel: 'stylesheet', href: '/style.css' }],
-    // Slack等のリンクプレビュー用画像 (OGP)
-    ['meta', { property: 'og:image', content: 'https://apps.hinogakuenpta.org/og-image.png' }],
-    ['meta', { property: 'og:title', content: '品川区立日野学園PTA アプリケーション' }],
-    ['meta', { property: 'og:description', content: 'PTA向けアプリケーションの一覧と説明' }],
-    // Twitter / OGP カード対応
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:image', content: 'https://apps.hinogakuenpta.org/og-image.png' }]
   ],
+  async transformHead(ctx) {
+    return [
+      // Slack等のリンクプレビュー用画像 (OGP)
+      ['meta', { property: 'og:image', content: 'https://apps.hinogakuenpta.org/og-image.png' }],
+      ['meta', { property: 'og:title', content: ctx.pageData.title || '品川区立日野学園PTA アプリケーション' }],
+      ['meta', { property: 'og:description', content: ctx.pageData.description || 'PTA向けアプリケーションの一覧と説明' }],
+      // Twitter / OGP カード対応
+      ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+      ['meta', { name: 'twitter:image', content: 'https://apps.hinogakuenpta.org/og-image.png' }]
+    ]
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

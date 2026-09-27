@@ -1,3 +1,7 @@
+---
+title: slack2mail 選択肢
+description: Slackのインターフェースを使用して会員向けにメールを送信するSlackアプリ
+---
 
 # 選択肢
 
