@@ -7,7 +7,14 @@ export default defineConfig({
   description: "PTA向けアプリケーションの一覧と説明",
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
-    ['link', { rel: 'stylesheet', href: '/style.css' }]
+    ['link', { rel: 'stylesheet', href: '/style.css' }],
+    // Slack等のリンクプレビュー用画像 (OGP)
+    ['meta', { property: 'og:image', content: 'https://apps.hinogakuenpta.org/og-image.png' }],
+    ['meta', { property: 'og:title', content: '品川区立日野学園PTA アプリケーション' }],
+    ['meta', { property: 'og:description', content: 'PTA向けアプリケーションの一覧と説明' }],
+    // Twitter / OGP カード対応
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://apps.hinogakuenpta.org/og-image.png' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -50,5 +57,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ECR33' }
     ]
+  },
+  vite: {
+    server: {
+      allowedHosts: ['.hinogakuenpta.org', '.sakurastyle.jp'],
+    },
   }
 })
